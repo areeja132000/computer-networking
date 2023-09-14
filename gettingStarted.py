@@ -8,7 +8,7 @@ def welcome_assignment_answers(question):
     #Students do not have to follow the skeleton for this assignment.
     #Another way to implement is using a "case" statements similar to C.
     if question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
-        answer = "pcap"
+        answer = "pcap is this "
     elif question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
@@ -25,7 +25,7 @@ def welcome_assignment_answers(question):
     elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
         answer = 1
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
-        answer = 4
+        answer = 3
     else: 
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
